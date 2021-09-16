@@ -1,0 +1,28 @@
+{
+    "name": "hicks/parser-rbc",
+    "description": "test case",
+    "type": "project",
+    "authors": [
+        {
+            "name": "hicks",
+            "email": "admin@rumata.info"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "simplehtmldom/simplehtmldom": "^2.0@RC",
+        "guzzlehttp/guzzle": "^7.3",
+        "colshrapnel/safemysql": "^1.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "ForPeople\\": "lib/"
+        },
+        "files": [
+            "lib/config.php"
+        ]
+    }
+}
